@@ -60,6 +60,4 @@ def validated():
     user_name = request.args.get('user_name')
 
     return render_template('validated-user.html', user_name=user_name)
-
-
 app.run()
